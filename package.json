@@ -1,5 +1,5 @@
 {
-  "name": "genshin-data",
+  "name": "@etland/genshin-data",
   "version": "1.0.0",
   "description": "Genshin Impact Data.",
   "main": "index.js",
@@ -22,11 +22,15 @@
   "homepage": "https://github.com/et-land/genshin-data#readme",
   "devDependencies": {
     "commitizen": "^3.1.2",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^17.4.2"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "release": {
+    "branches": ["main"]
   }
 }
