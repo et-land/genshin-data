@@ -4,7 +4,8 @@
   "description": "Genshin Impact Data.",
   "main": "index.js",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",
